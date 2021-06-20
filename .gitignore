@@ -1,0 +1,12 @@
+/Dockerfile.local
+/Dockerfile.staging
+/src/node_modules
+/src/vendor
+/src/.env
+/src/.env.backup
+/src/public/hot
+/src/public/storage
+/src/storage/*.key
+/src/npm-debug.log
+/src/yarn-error.log
+/src/.phpunit.result.cache

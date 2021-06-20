@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  app:
+    build: .
+    container_name: StampGatewayService
+    hostname: app
+    restart: unless-stopped
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 8000:80
+
+networks:
+  default:
